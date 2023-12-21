@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: #F5F8FA;
+    height: 100vh;
+    
+}
+nav{
+    width: 95%;
+    padding-block: 30px;
+    margin: auto;
+    border-bottom: 1px solid #E0E6EA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+ul button{
+    padding: 12px 20px;
+    border: 2px solid #646E7A;
+    border-radius: 6px;
+    background-color: #F5F8FA;
+}
+section{
+    width: 65%;
+    margin: auto;
+    box-shadow: 5px 5px 49px -17px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 5px 5px 49px -17px rgba(0,0,0,0.7);
+    -moz-box-shadow: 5px 5px 49px -17px rgba(0,0,0,0.7);
+    display: flex;
+    /* height: 500px; */
+    margin-top: 85px;
+}
+section > div {
+    /* padding: 42px 45px; */
+}
+
+.left{
+    width: 65%;
+    background-color: white;
+  
+}
+.right{
+    flex: 1;
+    background-color: #1179BF;
+}
+
+.container1, .container2, .container3, .container4 {
+    padding: 41px 48px;
+    border-bottom: 1px solid #F5F7FA;
+}
+
+.numberhead{
+    padding: 7px;
+    color: #548BC5;
+    border: 1px solid #548BC5;
+    border-radius: 100%;
+    width: max-content;
+}
+.forminput{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100%;
+}
+.forminput input{
+    width: 75%;
+    padding: 10px 12px;
+    background-color: #EDEFF2;
+    border-radius: 4px;
+    border: 0px;
+}
+.container2 div{
+    display: flex;
+    gap: 10px;
+   
+}
+.container2 h3{
+    color: #1D2C3C;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.16px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container2first{
+    align-items: center;
+}
+.first2{
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    width: 100%;
+}
+.container3first{
+    display: flex;
+    gap: 10px;
+    align-items: center;  
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.forminput4{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.forminput4 input{
+    width: 75%;
+    padding: 10px 12px;
+    background-color: #EDEFF2;
+    border-radius: 4px;
+    border: 0px;
+}
+.forminput5{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100%;
+}
+.forminput5 input{
+    width: 50%;
+    padding: 10px 12px;
+    background-color: #EDEFF2;
+    border-radius: 4px;
+    border: 0px;
+}
+.number8{
+    padding: 7px;
+    color: #548BC5;
+    border: 1px solid #548BC5;
+    border-radius: 50%;
+    width: max-content;
+}
+.button1{
+    text-align: center;
+}
+.button1 button{
+    width :90%;
+    padding: 20px ;
+    cursor: pointer;
+    border-radius: 5px;
+background: #038E7D;
+border: 0px;
+}
+.container8first{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}.first{
+    padding: 41px 48px;
+    color:#FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.01px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.second{
+    display: flex;
+}.second h3{
+    color:#FFF;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.fifth{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.sixth{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    columns: 20px 20px;  
+}
+.nine{
+    padding-top: 30px;
+    border-top: 1px solid #D8D8D8;
+}
+.ten{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
