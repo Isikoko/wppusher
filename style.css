@@ -153,6 +153,7 @@ letter-spacing: -0.16px;
 }
 .button1{
     text-align: center;
+
 }
 .button1 button{
     width :90%;
@@ -161,6 +162,7 @@ letter-spacing: -0.16px;
     border-radius: 5px;
 background: #038E7D;
 border: 0px;
+color: #fff;
 }
 .container8first{
     display: flex;
